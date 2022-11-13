@@ -1,0 +1,29 @@
+.result-container {
+
+    border: 1px solid black;
+
+    .drive {
+        background: 1px solid #007788;
+        background-color:#007788;
+        padding: 0.5rem;
+
+        &:hover {
+            background-color: #8cd4e0;
+            cursor: pointer;
+        }
+    }
+
+    
+
+    .file {
+        background: 1px solid #008877;
+        background-color:#008877;
+        padding: 0.5rem;
+
+        &:hover {
+            background-color: #93d4cd;
+            cursor: pointer;
+        }
+    }
+
+}

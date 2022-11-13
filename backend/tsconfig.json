@@ -14,26 +14,19 @@
       "esnext",
       "es6"
     ],
-    "types": [
-      "reflect-metadata"
-    ],
+    "types": ["reflect-metadata"],
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": true,
-    "jsx": "react-jsx",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "checkJs": false
+    "checkJs": true
   },
   "include": [
     "src"
-  ],
-  "exclude": [
-    "src/setupProxy.cjs",
-    "src/electron/electron-main.cjs"
   ]
 }
